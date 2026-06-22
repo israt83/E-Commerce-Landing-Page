@@ -1,6 +1,6 @@
 import {
   FaArrowRight,
-  FaRegHeart,
+
   FaStar,
 } from "react-icons/fa";
 

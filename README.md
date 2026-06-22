@@ -1,16 +1,76 @@
-# React + Vite
+# 🕰️ Chronova - Luxury Watch E-commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Chronova is a modern luxury watch e-commerce web application built with React and Tailwind CSS.  
+It provides a premium shopping experience with elegant UI, smooth navigation, and product browsing features.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Live Demo
+🔗 https://your-netlify-link.netlify.app
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Project Overview
 
-## Expanding the ESLint configuration
+This project includes a fully functional e-commerce frontend:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🏠 Landing Page with luxury UI sections
+- 🛍️ Product listing with featured products
+- 📄 Product details page with gallery & specifications
+- 🛒 Shopping cart system
+- 💳 Checkout page UI
+- 🔥 Responsive design for all devices
+
+---
+
+## 🚀 Features
+
+### 🏠 Home Page
+- Hero banner
+- Featured products
+- Featured categories
+- Best sellers section
+- Customer reviews slider
+- Newsletter section
+- Luxury footer design
+
+### 📄 Product Details Page
+- Large product image
+- Image gallery
+- Product rating system
+- Price & description
+- Quantity selector
+- Add to cart button
+- Wishlist feature
+- Related products section
+
+### 🛒 Cart Page
+- Add/remove products
+- Increase/decrease quantity
+- Dynamic total calculation
+- Empty cart UI state
+
+### 💳 Checkout Page
+- Customer information form
+- Shipping address
+- Payment method UI (frontend only)
+- Order summary
+- Place order button (UI only)
+
+---
+
+## 🛠️ Technologies Used
+
+- ⚛️ React.js
+- 🎨 Tailwind CSS
+- 🔀 React Router DOM
+- 🎯 React Icons
+- ⚡ Vite (for fast development)
+
+---
+
+## 📁 Project Setup Instructions
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/chronova.git

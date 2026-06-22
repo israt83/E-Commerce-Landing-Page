@@ -3,8 +3,10 @@ import {
   FaRegHeart,
   FaStar,
 } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 export default function FeaturedProducts() {
+   const navigate = useNavigate(); 
   const products = [
     {
       name: "Chronova Elite",
@@ -53,9 +55,11 @@ export default function FeaturedProducts() {
 
         {/* Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 ">
+
           {products.map((product, index) => (
             <div
               key={index}
+                onClick={() => navigate(`/product/${index}`)}
               className="relative  rounded-xl overflow-hidden group cursor-pointer border border-white/10"
             >
               {/* Product Image */}
