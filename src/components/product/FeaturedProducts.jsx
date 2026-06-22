@@ -4,36 +4,40 @@ import {
   FaStar,
 } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
+import citizen from "../../assets/cartier watch.jpg";
+import geneve from "../../assets/geneve watch.jpg";
+import fitron from "../../assets/fitron watch.jpg";
+import cartier from "../../assets/cartier watch.jpg";
+
 
 export default function FeaturedProducts() {
    const navigate = useNavigate(); 
-  const products = [
+ const products = [
     {
       name: "Chronova Elite",
       price: "$599",
       rating: "4.9",
-      img: "/src/assets/citizen.png",
+      img: citizen,
     },
     {
       name: "Chronova Heritage",
       price: "$499",
       rating: "4.8",
-      img: "/src/assets/geneve watch.jpg",
+      img: geneve,
     },
     {
       name: "Chronova Prestige",
       price: "$699",
       rating: "5.0",
-      img: "/src/assets/fitron watch.jpg",
+      img: fitron,
     },
     {
       name: "Chronova Titan",
       price: "$549",
       rating: "4.9",
-      img: "/src/assets/cartier watch.jpg",
+      img: cartier,
     },
   ];
-
   return (
     <section className="py-10">
       <div className="max-w-7xl mx-auto px-4 border-t border-[#C9A24E]/30 pt-10">

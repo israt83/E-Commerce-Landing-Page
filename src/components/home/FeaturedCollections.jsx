@@ -1,12 +1,14 @@
 import { FaArrowRight } from "react-icons/fa";
-
+import classic from "../../assets/Klassc.png";
+import tissot from "../../assets/Tissot.png";
+import luxury from "../../assets/product watch.png";
+import omega from "../../assets/omega blue.png";
 export default function FeaturedCollections() {
-  const items = [
-    { title: "Classic", img: "/src/assets/Klassc.png" },
-    { title: "Sports", img: "/src/assets/Tissot.png" },
-    { title: "Luxury", img: "/src/assets/product watch.png" },
-    { title: "Limited Edition", img: "/src/assets/omega blue.png" },
-    
+    const items = [
+    { title: "Classic", img: classic },
+    { title: "Sports", img: tissot },
+    { title: "Luxury", img: luxury },
+    { title: "Limited Edition", img: omega },
   ];
 
   return (

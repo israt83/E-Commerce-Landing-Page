@@ -1,31 +1,29 @@
-# 🕰️ Chronova - Luxury Watch E-commerce Website
+#  Chronova - Luxury Watch E-commerce Website
 
 Chronova is a modern luxury watch e-commerce web application built with React and Tailwind CSS.  
 It provides a premium shopping experience with elegant UI, smooth navigation, and product browsing features.
 
 ---
 
-## 🌐 Live Demo
-🔗 https://your-netlify-link.netlify.app
+##  Live Demo
+🔗 https://echronova-watch.netlify.app
 
 ---
 
-## 📸 Project Overview
+##  Project Overview
 
-This project includes a fully functional e-commerce frontend:
+This project includes a  functional e-commerce frontend:
 
-- 🏠 Landing Page with luxury UI sections
-- 🛍️ Product listing with featured products
-- 📄 Product details page with gallery & specifications
-- 🛒 Shopping cart system
-- 💳 Checkout page UI
-- 🔥 Responsive design for all devices
+-  Landing Page with luxury UI sections
+-  Product listing with featured products
+-  Product details page with specifications
+-  Responsive design for all devices
 
 ---
 
-## 🚀 Features
+## Features
 
-### 🏠 Home Page
+###  Home Page
 - Hero banner
 - Featured products
 - Featured categories
@@ -34,43 +32,32 @@ This project includes a fully functional e-commerce frontend:
 - Newsletter section
 - Luxury footer design
 
-### 📄 Product Details Page
+###  Product Details Page
 - Large product image
-- Image gallery
 - Product rating system
 - Price & description
 - Quantity selector
 - Add to cart button
 - Wishlist feature
-- Related products section
-
-### 🛒 Cart Page
-- Add/remove products
-- Increase/decrease quantity
-- Dynamic total calculation
-- Empty cart UI state
-
-### 💳 Checkout Page
-- Customer information form
-- Shipping address
-- Payment method UI (frontend only)
-- Order summary
-- Place order button (UI only)
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
-- ⚛️ React.js
-- 🎨 Tailwind CSS
-- 🔀 React Router DOM
-- 🎯 React Icons
-- ⚡ Vite (for fast development)
+- React.js
+- Tailwind CSS
+- React Router DOM
+- React Icons
+- Swiper.js (for sliders/carousel)
+- Vite (for fast development)
 
 ---
 
-## 📁 Project Setup Instructions
+##  Project Setup Instructions
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/chronova.git
+git clone https://github.com/israt83/E-Commerce-Landing-Page.git
+cd chronova
+npm install
+npm run dev
