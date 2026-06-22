@@ -4,33 +4,37 @@ import {
   FaRegHeart,
   FaArrowLeft,
 } from "react-icons/fa";
+import citizen from "../../assets/cartier watch.jpg";
+import geneve from "../../assets/geneve watch.jpg";
+import fitron from "../../assets/fitron watch.jpg";
+import cartier from "../../assets/cartier watch.jpg";
 
 export default function ProductDetails() {
   const { id } = useParams();
 
-  const products = [
+ const products = [
     {
       name: "Chronova Elite",
       price: "$599",
-      img: "/src/assets/citizen.png",
+      img: citizen,
       desc: "Luxury Swiss automatic watch with premium finishing.",
     },
     {
       name: "Chronova Heritage",
       price: "$499",
-      img: "/src/assets/geneve watch.jpg",
+      img: geneve,
       desc: "Classic heritage design with modern precision.",
     },
     {
       name: "Chronova Prestige",
       price: "$699",
-      img: "/src/assets/fitron watch.jpg",
+      img: fitron,
       desc: "Premium craftsmanship with elite Swiss movement.",
     },
     {
       name: "Chronova Titan",
       price: "$549",
-      img: "/src/assets/cartier watch.jpg",
+      img: cartier,
       desc: "Bold titanium design for modern lifestyle.",
     },
   ];

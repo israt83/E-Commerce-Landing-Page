@@ -15,8 +15,8 @@ It provides a premium shopping experience with elegant UI, smooth navigation, an
 This project includes a  functional e-commerce frontend:
 
 -  Landing Page with luxury UI sections
--  Product listing with featured products
--  Product details page with specifications
+-  Featured Products section with clickable product cards
+-  Product details page with specifications (only for Featured Products cards)
 -  Responsive design for all devices
 
 ---
