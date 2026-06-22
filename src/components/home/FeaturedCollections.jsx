@@ -6,6 +6,7 @@ export default function FeaturedCollections() {
     { title: "Sports", img: "/src/assets/Tissot.png" },
     { title: "Luxury", img: "/src/assets/product watch.png" },
     { title: "Limited Edition", img: "/src/assets/omega blue.png" },
+    
   ];
 
   return (
@@ -16,11 +17,11 @@ export default function FeaturedCollections() {
         FEATURED COLLECTIONS
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
         {items.map((item, i) => (
           <div
             key={i}
-            className="relative group overflow-hidden rounded-2xl border border-white/10 h-[320px]"
+            className="relative group overflow-hidden rounded-xl border border-white/10 h-[300px]"
           >
             {/* IMAGE */}
             <img
