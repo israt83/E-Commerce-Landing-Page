@@ -1,8 +1,11 @@
+import Hero from "../components/home/Hero"
 
 
 const Home = () => {
   return (
-   <div className="text-4xl font-bold text-red-600">Home</div>
+   <div>
+    <Hero/>
+   </div>
   )
 }
 
